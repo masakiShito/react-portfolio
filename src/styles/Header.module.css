@@ -1,0 +1,23 @@
+/* src/styles/Header.module.css */
+.header {
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+}
+
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header nav a svg {
+    margin-right: 5px;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}

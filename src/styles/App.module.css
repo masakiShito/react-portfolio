@@ -1,0 +1,40 @@
+/* src/styles/App.module.css */
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    margin: 20px;
+}
+
+.nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #4caf50;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* src/styles/AddTodo.module.css */
+.addTodoButton {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.addTodoButton:hover {
+    background-color: #45a049;
+}
+
+.addTodoButton svg {
+    margin-right: 5px;
+}
